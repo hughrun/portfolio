@@ -1,0 +1,162 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100%;
+    width: 100vw;
+    color: #383430;
+    font-size: 110%;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(0,0,0,0.4)
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 350%;
+}
+
+a {
+  text-decoration: none;
+  color: slategray;
+}
+
+#projects {
+  background-image: url('/jess-watters-571660-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: #000 cover center no-repeat;
+  max-width: 2000px;
+  padding: 1em 2em;
+  margin: 0 auto;
+}
+
+.intro-text {
+  text-align: justify;
+  position: relative;
+  top: -3.5em;
+  left: -2em;
+  width: 100%;
+  padding: 2em;
+  text-shadow: -1px 1px #383430;
+  color: #fff;
+  background: rgba(0,0,0,0.5)
+}
+
+.intro-text a {
+  color: #ffe095;
+}
+.code-lang {
+  margin: 0.5em auto;
+  padding: 0.25em 0.5em;
+  line-height: 2em;
+  text-align: center;
+  margin: 0 2.5px;
+  cursor: pointer;
+}
+
+.languages {
+  margin-top: 1em;
+}
+
+.css {
+  background: #0092bf;
+  color: #fff;
+}
+
+.html {
+  background: #F16529;
+  color: #fff;
+}
+
+.js {
+  background: yellow;
+}
+
+.php {
+  background: #8892BF;
+  color: #fff;
+}
+
+.github,
+.demo {
+  height: 32px;
+  margin-right: 1em;
+}
+
+.project {
+  vertical-align: top;
+  display: inline-block;
+  width: 300px;
+  margin: 2em;
+  background-color: #fff;
+  color: #383430;
+}
+
+.project-details {
+  padding: 2em;
+}
+
+.app,
+.bot,
+.theme,
+.script {
+  text-align: right;
+  position: relative;
+  top: 0;
+  margin: 0;
+  line-height: 2em;
+  padding: 0.5em 1em;
+}
+
+.app {
+  background-color: slategray;
+}
+
+.bot {
+  background-color: #55acee;
+}
+
+.script {
+  background-color: #026200;
+}
+
+.theme {
+  background-color: #ffe095;
+  color: #383430;
+}
+
+.frameworks,
+.ops {
+  margin: 1em 0;
+}
+
+.framework,
+.op {
+  font-size: 80%;
+  margin: 0.25em;
+  padding: 0.25em 0.5em;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  cursor: pointer;
+}
+
+.op {
+  border: 1px solid #333;
+  background: none;
+  color: #333;
+}
+
+.released {
+  font-size: 80%;
+  font-style: italic;
+  margin: 1em 0;
+}
+
+.credits div {
+  margin: 1em 0;
+}
